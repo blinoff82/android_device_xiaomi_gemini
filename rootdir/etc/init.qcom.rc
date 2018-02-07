@@ -107,7 +107,7 @@ on fs
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
 
-    mount_all /system/vendor/etc/fstab.qcom --early
+    mount_all /vendor/etc/fstab.qcom --early
     
     # Set permissions for persist partition
     chown root system /mnt/vendor/persist
@@ -132,7 +132,7 @@ on late-fs
     start configstore-hal-1-0
     start gralloc-2-0
      # mount RW partitions which need run fsck
-    mount_all /system/vendor/etc/fstab.qcom --late
+    mount_all /vendor/etc/fstab.qcom --late
 
     # boot time fs tune
     write /sys/block/sda/queue/iostats 0
