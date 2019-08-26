@@ -289,7 +289,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libmm-omxcore
 
 # OTA Updates
 PRODUCT_PACKAGES += \
