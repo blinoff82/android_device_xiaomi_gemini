@@ -652,11 +652,11 @@ vendor/lib/sensor_calibrate.so|39ca3c985d67c296ef21e8ce0822f7fc26023dcd
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|cee30a3b09c02587b55ffe6c04e96aabfe9f918e
 vendor/lib64/sensor_calibrate.so|8d23318acf49b044512af1501407206a727bd978
 
-# Thermal - from daisy - PKQ1.180917.001
-vendor/bin/thermal-engine|e24c041613a4a522e15d54f700e1d1befe7e171e
--vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
-vendor/lib64/libthermalioctl.so|0edca2e89fbd872d8595517254669ea7feb1e0b0
--vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
+# Thermal - from LA.UM.7.5.r1-05300-8x96.0
+vendor/bin/thermal-engine|61f954e68514aedeede9cca90cc70b5cd4736e02
+-vendor/lib64/libthermalclient.so|552c501aac03b5390f30f7105f6f46788f197f9f
+vendor/lib64/libthermalioctl.so|e1597b961c1bee480f018dd7d2cc4e9fc2bb252b
+-vendor/lib/libthermalclient.so|dc66c8ba3a49842f090eb4d15d2143d68987367d
 
 # Time services - from daisy - PKQ1.180917.001
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
