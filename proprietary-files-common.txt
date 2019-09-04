@@ -632,26 +632,18 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/lib/libmdmdetect.so
 vendor/radio/qcril_database/qcril.db
 
-# Sensors - from daisy - PKQ1.180917.001
-vendor/bin/sensors.qti|3d6881f1210907aaf53dcc35b8afb55945c4af69
-vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
-vendor/etc/sensors/sensor_def_qcomdev.conf|b0d21e39bf33cf88a76d70871cb281cf8c0ac3f6
-vendor/lib/libsdsprpc.so|6ab1f21553ca33514958cdd501c672eab9838e6c
-vendor/lib/libsensor1.so|1ea8cc3968d77ccfc116b30a36cf03ffda0d1338
-vendor/lib/libsensor_reg.so|05a6945627710edc3db074ca523a8e178b2a3e95
-vendor/lib/libsensor_cit.so|154e5f5f6f0f6bf0342768814542d1e6ce1c4a6d
-vendor/lib/libsensor_crosstalk.so|0654699d57a1c278ad72c29007b913f61dda3385
-vendor/lib/libsensor_test.so|ddb9a546d5ceaa0e51f71b59851ff3edc0b29a9c
-vendor/lib/libsensor_user_cal.so|d86ae521c74f9a65cafc219f98d61c16059ad46b
-vendor/lib64/libsdsprpc.so|fc1325b8e76a125f6608a0086712dba894151c11
-vendor/lib64/libsensor1.so|03efb9648624844c5bc962a7e5dda7691372cd89
-vendor/lib64/libsensor_reg.so|e48d096044cda0d9e0dac3d3442e9f5d396862e8
-vendor/lib/sensors.ssc.so|ec4ce020a8c61019896d4ff458fefe4537999e3f
-vendor/lib64/sensors.ssc.so|dabcea6d758a88dfabd1837fa4bba9c6085ee465
-vendor/lib64/libsensor_cit.so|01e1b091d80a22567a012cd39e215cdb38a8a2c6
-vendor/lib64/libsensor_crosstalk.so|625995fecf1783e0770c8a5cafec3d04f5ae2537
-vendor/lib64/libsensor_test.so|53bee1f5ba654ac34bc4c4b4c23f9bcf337c5b7c
-vendor/lib64/libsensor_user_cal.so|3965ea663c25ee07897ef003a13b94f0addde8ab
+# Sensors  - from LA.UM.7.5.r1-05300-8x96.0
+vendor/bin/sensors.qti|e66234a6836c1337dbd81556b6e454db81e699dc
+vendor/lib64/hw/activity_recognition.msm8996.so|c29a0dfff27824dac39a21f56a92bf319acb051b
+vendor/lib64/libsensor1.so|1934268e2f28ee9d705d5ff060544d06e42afcc3
+vendor/lib64/libsensor_reg.so|942fbf9ef1cfc87596f850e7ff1a86e7a9ddc846
+vendor/lib64/libsensor_user_cal.so|72e96e0604cf967d3d70e1b066da6f655d52ac38
+vendor/lib64/sensors.ssc.so|e49e3c585da09b323948e1c1201118d426f3d558
+vendor/lib/hw/activity_recognition.msm8996.so|58878fbcf8e98a8f053c3d1fbaa1beb4d7776d12
+vendor/lib/libsensor1.so|d73573eca4e1eaf52f09f9cc7292cdc6d9d69c70
+vendor/lib/libsensor_reg.so|2d95cea1df93dcaae0f067157f6932c1381dec53
+vendor/lib/libsensor_user_cal.so|c4dc36b5995781ad1a69d3b935e0a5bd98cc6d2f
+vendor/lib/sensors.ssc.so|96a37b515969d72875debd9ee0a505406d75bd3c
 
 # Sensor Calibration - from daisy - PKQ1.180917.001
 framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|0f254c05b7c49f8b29fc29b7c69855cb30d096ce
