@@ -516,16 +516,30 @@ vendor/bin/pm-service|51d704ebc824f2d10f18e257b6ef38ea25aecc82
 vendor/lib64/libperipheral_client.so|6b3bd89a1adb37670ed61e0102b2f566cd947ece
 vendor/lib/libperipheral_client.so|21768d817ef624ab9437ab7524e2f81bad2eb859
 
-# Postprocessing - from daisy - PKQ1.180917.001
+# Postprocessing - from LA.UM.7.5.r1-05300-8x96.0
+lib64/vendor.display.color@1.0.so|c07c92c78bf4cf7597cb82ce4ba6c06d65fa7f34
+lib64/vendor.display.postproc@1.0.so|a74485c31efa3bdeb452d8220adabaa3c7c65ed0
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so|80036a2486a49489b870d571c12c7b17918ba021
+lib/vendor.display.color@1.0.so|1d84081b2438e127177baa66a91c9b3e5be8e04a
+lib/vendor.display.postproc@1.0.so|8f6b3da0460daf1100d6be379af5aec69fdb9d3a
+lib/vendor.qti.hardware.qdutils_disp@1.0.so|5e074cf7078fdef00f2e5d46eae7a06239a77078
 vendor/bin/hw/vendor.display.color@1.0-service|4186fc9f9c69897fe4d79bbf58025144df9c6387
-vendor/bin/mm-pp-dpps|74141c92e68a293b2f5fb0992cb58102ecd9718b
+vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|0c9c3a05e7a1bc1da704f7d0111e1285d478a7c9
+vendor/bin/mm-pp-dpps|5f658932f117e3bd4f8b1b4bacce4a483001b760
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
 vendor/lib64/libdisp-aba.so|09a8d5f64b3a6f6f57971ad6fab62cfde4e98547
 vendor/lib64/libsdm-disp-vndapis.so|0770a8dc3ab6b3f385be14cd25e8b89a0e780a2e
-vendor/lib64/vendor.display.color@1.0.so|4a77650c5d42169073a13f5150da619bf806e7d7
-vendor/lib64/vendor.display.color@1.1.so|a8bfe228ed1235f1ceb8ab794100c7edab38d0a7
-vendor/lib64/vendor.display.color@1.2.so|6a9474efc2736d68bab877dfdbdca5296c8b4e5d
-vendor/lib64/vendor.display.postproc@1.0.so|014e060db0ddb6b1f9af705fb11a775d00ee2d14
+vendor/lib64/vendor.display.color@1.0.so|c07c92c78bf4cf7597cb82ce4ba6c06d65fa7f34
+vendor/lib64/vendor.display.color@1.1.so|685e3a360111244e3f79efab81ff4fae0bd3c79d
+vendor/lib64/vendor.display.color@1.2.so|1850c6ff0ee8da401d7b31a5017dbd4049f88b41
+vendor/lib64/vendor.display.postproc@1.0.so|a74485c31efa3bdeb452d8220adabaa3c7c65ed0
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|80036a2486a49489b870d571c12c7b17918ba021
+vendor/lib/vendor.display.color@1.0.so|1d84081b2438e127177baa66a91c9b3e5be8e04a
+vendor/lib/vendor.display.color@1.1.so|909f6cd46c7b8ce1c4406698811f167e68c01329
+vendor/lib/vendor.display.color@1.2.so|c6b8d17cba87b9d41dcbbdaccf24d13b7497328d
+vendor/lib/vendor.display.postproc@1.0.so|8f6b3da0460daf1100d6be379af5aec69fdb9d3a
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|5e074cf7078fdef00f2e5d46eae7a06239a77078
 
 # Power-off alarm - from daisy - PKQ1.180917.001
 framework/vendor.qti.hardware.alarm-V1.0-java.jar|ca5bf830ebb4fbf8fc1994200ec6e03dc83c274b
