@@ -510,11 +510,11 @@ vendor/lib/libqti-perfd-client.so|f277daf9632b4d4c22a27abec2c4d0ccf776892d
 vendor/lib64/libqti-perfd-client.so|eaf678de5d7d0de194a263db1835b1f582452419
 vendor/lib64/libperfmgr.so|c3dd666accc3831b081429f283b767b79025979f
 
-# Peripheral manager - from Mi A2 jasmine_sprout 9 PKQ1.180904.001 V10.0.1.0.PDIMIFJ release-keys
-vendor/bin/pm-proxy|e5f8c69e8d231dd2665dc411b4e9d9e696c90187
-vendor/bin/pm-service|d9fefe2b7fec574ac4eb70a29303eeec819e449d
-vendor/lib64/libperipheral_client.so|c4b0cb11e908b234a54a9f212c42ff4c37e37391
-vendor/lib/libperipheral_client.so|27b655cf18a1282594e5c91376b705fe31db6dab
+# Peripheral manager - from LA.UM.7.5.r1-05300-8x96.0
+vendor/bin/pm-proxy|83c3adde4167fe4d5874dc49312c3e7ffdea31a5
+vendor/bin/pm-service|51d704ebc824f2d10f18e257b6ef38ea25aecc82
+vendor/lib64/libperipheral_client.so|6b3bd89a1adb37670ed61e0102b2f566cd947ece
+vendor/lib/libperipheral_client.so|21768d817ef624ab9437ab7524e2f81bad2eb859
 
 # Postprocessing - from daisy - PKQ1.180917.001
 vendor/bin/hw/vendor.display.color@1.0-service|4186fc9f9c69897fe4d79bbf58025144df9c6387
