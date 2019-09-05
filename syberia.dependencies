@@ -2,7 +2,7 @@
  {
    "repository" : "SyberiaProject-Devices/platform_kernel_xiaomi_msm8996",
    "target_path": "kernel/xiaomi/msm8996",
-   "branch"     : "9.0"
+   "branch"     : "4.4-eas"
  },
  {
    "repository" : "SyberiaProject-Devices/proprietary_vendor_xiaomi",
@@ -23,6 +23,11 @@
    "repository" : "syberia-project/platform_hardware_qcom_media",
    "target_path": "hardware/qcom/media-caf/msm8996",
    "branch"     : "9.0-caf-8996"
+ },
+ {
+   "repository" : "LineageOS/android_hardware_qcom_media",
+   "target_path": "hardware/qcom/media-caf/msm8998",
+   "branch"     : "lineage-16.0-caf-8998"
  },
  {
    "repository" : "syberia-project/platform_vendor_nxp_interfaces_opensource_nfc",
