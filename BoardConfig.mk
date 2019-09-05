@@ -57,6 +57,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom ehci-hcd.park=3 cma=32M@0-0xffffffff
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_CMDLINE += loop.max_part=7
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
@@ -256,6 +257,10 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+# HALs
+USE_DEVICE_SPECIFIC_MEDIA := true
+DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom/media-caf/msm8998
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/gemini/BoardConfigVendor.mk

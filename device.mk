@@ -166,6 +166,10 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    vendor.display.color@1.0-impl \
+    vendor.display.color@1.0-service \
+    vendor.display.config@1.1 \
+    vendor.display.config@1.1_vendor \
     copybit.msm8996 \
     gralloc.msm8996 \
     hwcomposer.msm8996 \
@@ -289,7 +293,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libmm-omxcore
 
 # OTA Updates
 PRODUCT_PACKAGES += \
@@ -352,7 +357,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.xiaomi_8996
+    android.hardware.usb@1.0-service
 
 # VNDK
 PRODUCT_PACKAGES += \
